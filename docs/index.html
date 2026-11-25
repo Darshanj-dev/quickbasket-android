@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f2">
+  <meta name="description" content="QuickBasket is a Java Android grocery shopping app prototype with product details, cart, offline support, addresses, order history and local notifications.">
+  <title>QuickBasket — Grocery shopping demo</title>
+  <style>
+    :root{color-scheme:light;--ink:#15221b;--muted:#617067;--green:#12814d;--mint:#e9f5ed;--line:#e2e9e2;--paper:#fff;--bg:#f5f7f2}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}.wrap{width:min(1080px,calc(100% - 40px));margin:auto}.top{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:22px;font-weight:850;letter-spacing:-.7px}.brand span{color:var(--green)}.nav{display:flex;gap:24px;color:var(--muted);font-size:14px}.nav a{text-decoration:none}.hero{padding:68px 0 76px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#e7f4ea;color:#17613b;border-radius:999px;padding:7px 13px;font-size:13px;font-weight:700}.eyebrow i{width:8px;height:8px;background:#21a363;border-radius:50%}h1{font-size:clamp(42px,6vw,68px);line-height:1.02;letter-spacing:-3.4px;margin:22px 0 18px}.lead{font-size:18px;color:var(--muted);max-width:560px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:12px 18px;font-weight:700;background:#fff}.btn.primary{background:var(--green);color:#fff;border-color:var(--green)}.meta{font-size:13px;color:var(--muted);margin-top:14px}.phone-area{display:flex;justify-content:center}.phone{width:285px;border:9px solid #18231d;border-radius:38px;background:#fff;padding:18px 15px 16px;box-shadow:0 24px 55px #14281b24;transform:rotate(2deg)}.phone-top{display:flex;justify-content:space-between;align-items:center;font-weight:800}.address{font-size:11px;color:var(--muted);margin:22px 0 12px}.search{border-radius:13px;background:#f1f4f0;color:#77847b;padding:11px;font-size:11px}.banner{margin:15px 0;padding:17px 14px;border-radius:19px;background:var(--green);color:white;font-size:14px;font-weight:750}.mini-title{font-size:15px;font-weight:800;margin:17px 0 10px}.chips{display:flex;gap:7px}.chip{font-size:9px;background:#f1f4f0;padding:7px 9px;border-radius:99px}.chip.on{background:var(--green);color:#fff}.products{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}.product{border:1px solid var(--line);border-radius:15px;padding:9px;font-size:10px;font-weight:700}.fruit{height:72px;background:#fff2d0;border-radius:10px;display:grid;place-items:center;font-size:35px;margin-bottom:8px}.product:nth-child(2) .fruit{background:#ffebe7}.price{display:flex;justify-content:space-between;margin-top:7px}.add{color:var(--green);border:1px solid var(--green);border-radius:20px;padding:2px 8px}.section{padding:50px 0}.section h2{font-size:30px;letter-spacing:-1px;margin:0 0 9px}.section-intro{color:var(--muted);margin:0 0 26px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:21px}.icon{width:38px;height:38px;border-radius:12px;background:var(--mint);display:grid;place-items:center;font-size:19px}.card h3{font-size:16px;margin:14px 0 5px}.card p{font-size:14px;color:var(--muted);margin:0}.notice{background:#fff8e8;border:1px solid #f2dfad;border-radius:16px;padding:17px 20px;color:#665526;font-size:14px;margin-top:20px}.footer{border-top:1px solid var(--line);padding:24px 0 34px;color:var(--muted);font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}.footer a{color:var(--green);font-weight:700}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;gap:36px;padding:48px 0}.phone{width:min(285px,90%)}.grid{grid-template-columns:1fr}.nav{gap:14px;font-size:12px}.wrap{width:min(100% - 30px,1080px)}h1{letter-spacing:-2px}}
+  </style>
+</head>
+<body>
+  <header class="wrap top">
+    <a class="brand" href="#top" aria-label="QuickBasket home">quick<span>basket</span></a>
+    <nav class="nav" aria-label="Main navigation"><a href="#features">Features</a><a href="#about">About</a><a href="https://github.com/Darshanj-dev/quickbasket-android">Source code ↗</a></nav>
+  </header>
+  <main id="top">
+    <section class="wrap hero">
+      <div>
+        <span class="eyebrow"><i></i> Android app · Java</span>
+        <h1>Everyday groceries, made simple.</h1>
+        <p class="lead">QuickBasket is a polished grocery shopping app prototype built for Android. Browse a sample catalog, manage your cart and addresses, and explore the complete demo order flow.</p>
+        <div class="actions"><a class="btn primary" href="QuickBasket.apk" download>Download Android demo</a><a class="btn" href="https://github.com/Darshanj-dev/quickbasket-android">View source on GitHub ↗</a></div>
+        <p class="meta">Java · Android SDK · Offline-ready sample catalog</p>
+      </div>
+      <div class="phone-area" aria-label="QuickBasket app preview">
+        <div class="phone"><div class="phone-top"><span>quickbasket</span><span>🛒 2</span></div><div class="address">⌖ &nbsp; Delivering to<br><strong>Home · Select address</strong></div><div class="search">⌕ &nbsp; Search fruits, vegetables and more</div><div class="banner">⚡ Groceries at your door<br>Fresh picks. Great prices. Every day.</div><div class="mini-title">Shop by category</div><div class="chips"><span class="chip on">All</span><span class="chip">Fruits</span><span class="chip">Dairy</span><span class="chip">Bakery</span></div><div class="mini-title">Popular near you</div><div class="products"><div class="product"><div class="fruit">🥭</div>Alphonso Mangoes<div class="price"><span>₹129</span><span class="add">ADD</span></div></div><div class="product"><div class="fruit">🍅</div>Farm Fresh Tomatoes<div class="price"><span>₹32</span><span class="add">ADD</span></div></div></div></div>
+      </div>
+    </section>
+    <section class="section" id="features"><div class="wrap"><h2>Built around the grocery essentials</h2><p class="section-intro">A focused Android demo covering the key shopping journey from browsing to order tracking.</p><div class="grid">
+      <article class="card"><div class="icon">🛍️</div><h3>Browse and discover</h3><p>Search the sample catalog, filter categories, and open detailed product pages.</p></article>
+      <article class="card"><div class="icon">🧺</div><h3>Cart and checkout</h3><p>Adjust item quantities, review a bill summary, and get an empty-cart prompt before checkout.</p></article>
+      <article class="card"><div class="icon">📍</div><h3>Delivery addresses</h3><p>Add, select, edit, and remove saved addresses from the account area.</p></article>
+      <article class="card"><div class="icon">📦</div><h3>Orders and tracking</h3><p>Review demo orders, item details, delivery address, and sample packing statuses.</p></article>
+      <article class="card"><div class="icon">📶</div><h3>Works offline</h3><p>The bundled sample catalog and locally saved cart remain available without internet access.</p></article>
+      <article class="card"><div class="icon">🔔</div><h3>Device notifications</h3><p>See on-device notifications for order confirmation and a sample grocery promotion.</p></article>
+    </div><div class="notice"><strong>Prototype note:</strong> This project uses local demo data. Order statuses and notifications are demonstrated on-device; it is not connected to a live store, delivery service, or payment system.</div></div></section>
+    <section class="section" id="about"><div class="wrap"><h2>About the project</h2><p class="section-intro">QuickBasket was developed as an Android internship project. The source repository includes the Java app and Gradle wrapper.</p><a class="btn" href="https://github.com/Darshanj-dev/quickbasket-android">Explore the project repository ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-row"><span>© 2026 QuickBasket · Student project demo</span><span><a href="https://github.com/Darshanj-dev/quickbasket-android">GitHub repository</a></span></div></footer>
+</body>
+</html>
