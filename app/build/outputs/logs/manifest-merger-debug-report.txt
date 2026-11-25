@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:1:1-8:12
+	package
+		INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:2:5-77
+	android:name
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:2:22-74
+application
+ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:3:5-7:19
+INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:3:5-7:19
+	android:extractNativeLibs
+		INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:3:82-109
+	android:icon
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:3:110-149
+	android:theme
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:3:18-81
+activity#com.quickbasket.app.MainActivity
+ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:4:9-6:20
+	android:exported
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:4:48-71
+	android:name
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:4:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:5:13-156
+action#android.intent.action.MAIN
+ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:5:28-80
+	android:name
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:5:36-77
+category#android.intent.category.LAUNCHER
+ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:5:80-140
+	android:name
+		ADDED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml:5:90-137
+uses-sdk
+INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/darshanj/Documents/Codex/2026-11-25/l/android-app/app/src/main/AndroidManifest.xml

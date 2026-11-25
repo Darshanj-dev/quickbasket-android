@@ -1,0 +1,1 @@
+int drawable ic_quickbasket 0x7f010000
